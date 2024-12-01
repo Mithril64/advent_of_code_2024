@@ -6,7 +6,7 @@ typedef std::pair<int,int> pi;
 using namespace std;
 
 int main() {
-    string input = "input.txt";
+    string input = "../input.txt";
     ifstream file(input);
 
     if (!file.is_open()) {
