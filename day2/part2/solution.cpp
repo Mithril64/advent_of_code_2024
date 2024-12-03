@@ -40,7 +40,7 @@ bool can_become_safe(const vi& report) {
 
 int main() {
     vector<vi> data;
-    string input = "../input.txt";
+    string input = "../input.txt"; 
     ifstream file(input);
 
     if (!file.is_open()) {
