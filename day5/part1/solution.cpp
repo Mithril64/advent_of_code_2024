@@ -135,7 +135,7 @@ int main() {
     string line;
 
     getInput(firstPart, secondPart, path);
-    vi sortedValues = sortFirstPart(firstPart);
+    // vi sortedValues = sortFirstPart(firstPart);
     st sum = 0;
 
     for (auto& subVect : secondPart) {
